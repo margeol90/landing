@@ -1,0 +1,28 @@
+.cards {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ margin: 0 auto;
+ flex-wrap: wrap;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  height: 300px;
+  width: 200px;
+  text-align: center;
+  padding: 15px 30px;
+
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card p {
+  color: darkgray
+}
